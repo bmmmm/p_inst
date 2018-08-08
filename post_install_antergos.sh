@@ -7,8 +7,8 @@ aurinst='aurman --needed --noconfirm -S'
 echo "Official packages"
 sudo pacman -Syyu
 
-sudo pacman $inst git
-sudo pacman $inst rsync texlive-most lyx keepassxc 
+sudo $inst git
+sudo $inst rsync texlive-most lyx keepassxc 
 
 
 # Install aurman
